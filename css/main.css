@@ -8,7 +8,8 @@
 body{
     font-family: 'Rubik Mono One', sans-serif;
     text-align: center;
-    font-size: 35px;
+    font-size: 45px;
+    text-shadow: 1px 1px 1px rgb(31, 30, 30);
     color: yellow;
     text-transform: uppercase;
 }
@@ -58,6 +59,7 @@ html {
     text-align: center;
     line-height: 30px;
     text-decoration: none;
+    text-shadow: 0 0;
     background: white;
     color: black;
     font-size: 10px;
