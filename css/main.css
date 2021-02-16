@@ -1,5 +1,73 @@
+/*generals*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: yellow;
+    text-transform: uppercase;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*main content*/
+.container{
+    height: 100vh;
+    background: rgb(199, 30, 30);
+}
+
+.container.number2{
+    background: green;
+}
+
+.container.number3{
+    background: yellow;
+    color: green;
+}
+
+.contain img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container .contain{
+    width: 700px;
+    margin: 0 auto;
+}
+
+/*nav*/
+
+.navigation{
+    position: fixed;
+    right: 20px;
+    top: 0;
+}
+
+.navigation ul li{
+    list-style: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    font-size: 10px;
+    border-radius: 50%;
+
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
