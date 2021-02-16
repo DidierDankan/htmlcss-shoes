@@ -36,6 +36,7 @@ html {
 .contain img {
     max-width: 100%;
     height: auto;
+    filter: drop-shadow(20px 20px 9px rgb(26, 25, 25));
 }
 
 .container .contain{
@@ -68,8 +69,11 @@ html {
 }
 
 .navigation ul li a{
+    display: inline-block;
+    width: 30px;
     text-decoration: none;
     color: black;
+    cursor: pointer;
     
 }
 
